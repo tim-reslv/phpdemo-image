@@ -20,7 +20,7 @@ EXPOSE 80
 COPY index.php /var/www/html
 
 # Start Apache
-CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
+#CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
 
 #ADD entrypoint.sh /entrypoint.sh
 #RUN chmod +x /entrypoint.sh
