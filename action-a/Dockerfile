@@ -17,7 +17,7 @@ RUN sed -E -i -e 's/DirectoryIndex (.*)$/DirectoryIndex index.php \1/g' /etc/htt
 
 EXPOSE 80
 
-COPY index.php /var/www/html
+COPY ../index.php /var/www/html
 
 # Start Apache
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
