@@ -1,7 +1,7 @@
 FROM centos/php-72-centos7:7.2
 
 # Install Apache
-RUN yum -y update
+#RUN yum -y update
 #RUN yum -y install httpd httpd-tools
 
 # Install EPEL Repo
